@@ -1,0 +1,26 @@
+{
+  "name": "resy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./env_manager.sh && node --env-file=.env index.js",
+    "start:today": "node index.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "axios-http2-adapter": "^1.0.1",
+    "dns-cache": "^2.0.0",
+    "form-data": "^4.0.0",
+    "generic-pool": "^3.9.0",
+    "http2-wrapper": "^2.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "npm": "^10.8.1",
+    "qs": "^6.12.1"
+  }
+}
