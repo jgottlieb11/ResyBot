@@ -1,2 +1,6 @@
-.env
-/node_modules
+# Ignore all .env files
+.env.*
+
+# Ignore README.md
+README.md
+
