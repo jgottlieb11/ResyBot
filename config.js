@@ -3,7 +3,7 @@ const defaultHeaders = (authToken = null) => ({
   accept: 'application/json, text/plain, */*',
   'accept-language': 'en-US,en;q=0.9,la;q=0.8',
   authorization: `ResyAPI api_key= //removed for security and misuse
-//removed for concerns over security and misuse
+//removed the majority of this file over concerns of security and misuse
 const finalConfig = (authToken) => ({
   method: 'post',
   maxBodyLength: Infinity,
