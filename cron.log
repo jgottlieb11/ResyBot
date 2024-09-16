@@ -1,0 +1,26 @@
+env: node: No such file or directory
+
+> resy@1.0.0 start:today
+> node --env-file=.env index.js
+
+Starting the reservation script...
+JWT will expire on Sun Jul 14 2024 06:11:38 GMT-0400 (Eastern Daylight Time)
+Token is valid.
+No existing booking found.
+Checking for reservations at COTE Korean Steakhouse on Thursday, June 20 for 4 people...
+There are 2 slots available
+Evaluating slot at 11:15 PM in the Dining Room
+Checking if 11:15 PM is between 23:15 and 00:30
+Converted times: Start: 1395 mins, End: 30 mins, Target: 1395 mins
+Booking a prime slot at 11:15 PM in the Dining Room!
+Prime slot found: rgs://resy/71/288/2/2024-06-20/2024-06-20/23:15:00/4/Large Party 
+Slot found: rgs://resy/771/28/2/2024-06-20/2024-06-20/23:15:00/4/Large Party 
+Booking token received: ahfnb4RSSO2|iEmYjsc0lv3Uv76sYkmLzQo7JT4AoS1d_UQUJd5ux_UYUl6F8zVKedwIgr3IDoNCbpVoNm5W_EorueXTukzi0r2g2b5aAk7E0K|94lycHajRhZ5QkkxPgSkMmVnuQ2wPDI5avzo7R|Z5N5BxKX1PyKX1nEELLrNpQ2mvJWFjkAgJm3uJ5oWI7QVKrSTaxhsY4TazDP6rrlsD0Ct4V4AFHFglbNodUM_UeTRPh7MvSj80cBO9b4LAUxG6Y3XaGHRm2wEcZqrrKPgIzbzqPCC8KZzQw8I3eYUh1jn7CZ1HJIoJklRj24oJohMPvyTya_Dm8kMhjZQjToNJHH0rXMG9Z7wv_8Xt5rUXGOu0jIzv|cPU5erNiD_wqEsgta7PBi1jh6VcbKnQAi|p4QO8WN215B2rx2xQdfF8qXbfZc0dx7141SY_iHr_sMte5T8TgfwHDgfaHWrJWMn77is0EURgCNQIm0vVdi5wnQcfGcR4VTWtQ_GbIwnGNOPZEH9Q4EbfLyyTDgs471GNzEhGUruueUkqQtq6XUgjnIcTc7WusgP_H94i6rt_82m04gLM5KbO_FtIoM6awnGozXGrhif4W_rw8Qenz4Br3zmnikv_PDlQIBihLYEM4DXwnP5exjhalsDF2R_XUbCe2V8DElp6KonlD-f70459a7d334b4046b014af65aa8648a79a8e10a61cb5101d18778a1
+(node:3759) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Reservation response: {
+  resy_token: 'riCJ4T8w_D8ZQRJ_A6NrJoONg_y86HzZkNfyZPPIFc8U7sOp9KK6qQAS6_JI6pCzM6dpxVyek=-c8a86d03ab6654a23015251b6fb637af6344f865b39c5ceb87f5019e',
+  reservation_id: 589368537,
+  venue_opt_in: false
+}
+You've got a reservation!
