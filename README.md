@@ -1,10 +1,10 @@
-# Disclaimer
-
-**Important:** Certain files and parts of this project have been deliberately removed or modified to prevent misuse and unauthorized access. This includes sensitive information such as API keys, tokens, and specific configurations that could be used to exploit the Resy API or any other associated services. Please ensure that you responsibly configure your own instance with appropriate credentials and adhere to all terms of service and applicable regulations.
-
 # ResyBot Reservation Bot
 
 ResyBot is an automated reservation booking system for restaurants using the Resy API. This bot checks for available slots and makes reservations automatically based on user preferences, saving time and effort in securing high-demand reservations.
+
+# Disclaimer
+
+**Important:** Certain files and parts of this project have been deliberately removed or modified to prevent misuse and unauthorized access. This includes sensitive information such as API keys, tokens, and specific configurations that could be used to exploit the Resy API or any other associated services. Please ensure that you responsibly configure your own instance with appropriate credentials and adhere to all terms of service and applicable regulations.
 
 ## Features
 
